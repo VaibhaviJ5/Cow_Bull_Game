@@ -1,0 +1,113 @@
+/* General styling for the body and background */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    overflow: hidden; 
+  }
+  
+  /* Game container */
+  .game {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+    max-height: 90vh; 
+    overflow-y: scroll; 
+    -webkit-overflow-scrolling: touch; 
+  }
+  
+  /* Styling for input and buttons */
+  input[type="text"], button {
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%; 
+  }
+  
+  /* Message styling */
+  .message {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  /* Styling for guesses */
+  .guesses {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fafafa;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    max-height: 200px; 
+    overflow-y: auto; 
+  }
+  
+  /* Hide the scrollbar but keep content scrollable */
+  .game::-webkit-scrollbar {
+    display: none; 
+  }
+  
+  /* For Firefox */
+  .game {
+    scrollbar-width: none;
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Rules and regulations section */
+  .rules {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  }
+  
+  .rules ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .rules li {
+    margin-bottom: 8px;
+  }
+  
+  /* Styling for new game button */
+  .new-game-btn {
+    margin-top: 20px;
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .new-game-btn:hover {
+    background-color: #218838;
+  }
+  
